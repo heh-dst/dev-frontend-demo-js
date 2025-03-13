@@ -1,0 +1,79 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+  "name": "Python sandbox",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "aaron-bond.better-comments",
+        "adpyke.codesnap",
+        "christian-kohler.npm-intellisense",
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "GitHub.github-vscode-theme",
+        "humao.rest-client",
+        "mikestead.dotenv",
+        "ms-vsliveshare.vsliveshare",
+        "Orta.vscode-jest",
+        "redhat.vscode-yaml",
+        "ritwickdey.LiveServer",
+        "visualstudioexptteam.vscodeintellicode",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "vscode-icons-team.vscode-icons",
+        "xabikos.JavaScriptSnippets"
+      ],
+      "settings": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.fontLigatures": false,
+        "editor.rulers": [
+          80,
+          120
+        ],
+        "files.exclude": {
+          "**/.*": true
+        },
+        "git.autofetch": true,
+        "git.confirmSync": false,
+        "git.enableSmartCommit": true,
+        "html.format.indentInnerHtml": true,
+        "redhat.telemetry.enabled": false,
+        "rest-client.enableTelemetry": false,
+        "telemetry.telemetryLevel": "off",
+        "window.autoDetectColorScheme": true,
+        "workbench.editor.closeOnFileDelete": true,
+        "workbench.iconTheme": "vscode-icons",
+        "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+        "workbench.preferredLightColorTheme": "GitHub Light Default",
+        "workbench.startupEditor": "none",
+        "workbench.tips.enabled": false,
+        "workbench.welcomePage.walkthroughs.openOnInstall": false,
+        "[html]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[json]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[jsonc]": {
+          "editor.defaultFormatter": "vscode.json-language-features"
+        },
+        "[markdown]": {
+          "editor.wordWrap": "on"
+        },
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      }
+    }
+  },
+  "remoteEnv": {
+    "LANG": "en_US.UTF-8",
+    "LC_ALL": "C",
+    "TZ": "Europe/Brussels"
+  }
+}
