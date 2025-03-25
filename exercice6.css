@@ -1,0 +1,15 @@
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 50px;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.type-supplement {
+  display: none;
+}

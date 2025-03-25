@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="exercice6.css" />
+    <script src="exercice6.js" defer></script>
+    <title>Exercice 6</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Exercice 6</h1>
+      <h2>Votre pizza</h2>
+      <form>
+        <div class="column">
+          <select id="pizza">
+            <option value="8">Margherita</option>
+            <option value="10">Regina</option>
+            <option value="11">Capricciosa</option>
+            <option value="10.50">Quattro Formaggi</option>
+            <option value="9.50">Diavola</option>
+            <option value="12.50">Marinara</option>
+          </select>
+          <div>
+            <input
+              type="radio"
+              name="supplement"
+              id="supplement-avec"
+              value="avec"
+            />
+            <label for="supplement-avec">avec suppléments</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="supplement"
+              id="supplement-sans"
+              value="sans"
+              checked="checked"
+            />
+            <label for="supplement-sans">sans suppléments</label>
+          </div>
+          <div class="type-supplement">
+            <input
+              type="checkbox"
+              name="type-supplement"
+              id="type-supplement-anchois"
+              value="anchois"
+            />
+            <label for="type-supplement-anchois">Anchois</label>
+          </div>
+          <div class="type-supplement">
+            <input
+              type="checkbox"
+              name="type-supplement"
+              id="type-supplement-frites"
+              value="frites"
+            />
+            <label for="type-supplement-frites">Frites</label>
+          </div>
+          <div class="type-supplement">
+            <input
+              type="checkbox"
+              name="type-supplement"
+              id="type-supplement-olives"
+              value="olives"
+            />
+            <label for="type-supplement-olives">Olives</label>
+          </div>
+        </div>
+        <div class="column">
+          Payement
+          <div>
+            <input
+              type="radio"
+              name="payement"
+              id="payement-cash"
+              checked="checked"
+            />
+            <label for="payement-cash">CASH</label>
+          </div>
+          <div>
+            <input type="radio" name="payement" id="payement-visa" />
+            <label for="payement-visa">Visa</label>
+          </div>
+          <div>Prix&nbsp;: <span id="total">9</span>€</div>
+          <input type="submit" value="commandez !" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
