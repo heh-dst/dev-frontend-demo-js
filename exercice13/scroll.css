@@ -1,0 +1,17 @@
+main {
+  margin: 10px auto;
+  max-width: 300px;
+}
+
+.apparition {
+  height: 80px;
+  width: 100%;
+  background-color: red;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.invisible {
+  opacity: 0;
+  transition: opacity 0s;
+}
