@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(#6666cc, #ff9933);
+  height: 100vh;
+  position: relative;
+}
+
+#gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 5px;
+}
+
+figure {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 80%;
+}
