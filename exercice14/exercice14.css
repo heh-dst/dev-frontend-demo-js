@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+nav {
+  background-color: #222;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 1em 2em;
+  display: inline-block;
+}
+nav a:hover,
+nav a:focus {
+  color: #ff0;
+}
+nav a:active {
+  color: #f80;
+}
+#prlx {
+  background-image: url(img/bg.png);
+  height: 80vh;
+}
